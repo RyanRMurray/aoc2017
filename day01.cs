@@ -33,6 +33,8 @@ namespace aoc2017
             return sum;
         }
 
+        //sum of all integers that match the integer halfway along the list
+        //from its position
         static int part2(int[] numbers){
             int l = numbers.Length;
             int offset = l / 2;

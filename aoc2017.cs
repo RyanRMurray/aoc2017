@@ -30,6 +30,7 @@ namespace aoc2017
 
             switch(day){
                 case 1: Day01.Run(input); break;
+                case 2: Day02.Run(input); break;
                 default:
                     Console.WriteLine("That day hasn't been added yet!");
                     break;
