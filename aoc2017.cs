@@ -33,6 +33,9 @@ namespace aoc2017
                 case 2: Day02.Run(input); break;
                 case 3: Day03.Run(input); break;
                 case 4: Day04.Run(input); break;
+                case 5: Day05.Run(input); break;
+                case 6: Day06.Run(input); break;
+                case 7: Day07.Run(input); break;
                 default:
                     Console.WriteLine("That day hasn't been added yet!");
                     break;
